@@ -1,0 +1,20 @@
+.title{
+    text-align: center; 
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    margin: 1.5rem;
+}
+
+.character-name{
+    text-align: center;
+}
+

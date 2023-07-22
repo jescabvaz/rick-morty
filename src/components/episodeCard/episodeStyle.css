@@ -1,0 +1,14 @@
+.title{
+    text-align: center; 
+}
+
+.episode-container{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.episode-button{
+    margin: .5rem;
+   
+}

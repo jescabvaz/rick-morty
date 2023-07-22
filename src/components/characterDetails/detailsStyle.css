@@ -1,0 +1,28 @@
+.container-detail{
+    display: flex;
+    align-items: center;
+}
+
+.container-info{
+    margin-left: 2rem;
+}
+
+.info{
+    margin-bottom: 1rem;
+}
+
+.info > label {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) { 
+    .container-detail{
+        flex-direction: column;
+    }
+
+    .container-info{
+        margin-left: 0;
+        margin-top: 2rem;
+    }
+}
+

@@ -1,0 +1,36 @@
+.details-title{
+	height: 150px;
+	background: #97ce4c;
+	background: -webkit-linear-gradient(to left, #97ce4c , #f0e14a);
+	background: linear-gradient(to left, #97ce4c , #f0e14a);
+}
+
+.details-title  h2{
+	font-family: sans-serif;
+	text-align: center;
+	font-size: 50px;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	color: #f6f6f6;
+}
+
+.episode-container-info{
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+	
+}
+
+.episode-container-info > .info{
+	margin: 1rem;
+}
+.info > label {
+    font-weight: bold;
+}
+
+@media screen and (max-width: 600px) { 
+    .episode-container-info{
+		flex-wrap: wrap;
+    }
+}
